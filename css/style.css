@@ -1,0 +1,97 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.contenedor{
+  position: relative;
+  border: 1px solid black;
+  width: 900px;
+  height: 500px;
+  left: 250px;
+  top: 10px;
+}
+
+.encabezado {
+  position: relative;
+  background-color: #FFC107;
+  text-align: center;
+  border: solid 1px black;
+  height:30px;
+  margin: 0px;
+}
+
+.caja1{
+  float: left;
+  width: 298px;
+  height: 467px;
+  border: solid 1px black;
+}
+
+.caja2{
+  float: left;
+  width: 298px;
+  height: 467px;
+  border: solid 1px black;
+}
+
+.caja3{
+  float: left;
+  width: 298px;
+  height: 467px;
+  border: solid 1px black;
+}
+
+.pie{
+  position: absolute;
+  border: solid 1px black;
+  background: #FFC107;
+  width: 898px;
+  top: 468px;
+  height: 30px;
+
+}
+
+.pie > h4{
+  text-align: center;
+  top: 0px;
+  padding: 0px;
+  margin: 4px;
+
+}
+.encabezado > h3{
+  position: relative;
+  text-align: center;
+  top: 2px;
+  margin: 0px;
+}
+h4{
+  position: relative;
+  text-align: center;
+  top:10px;
+}
+h3{
+  position: relative;
+  text-align: center;
+  top: 10px;
+}
+
+p{
+  position: relative;
+  text-align: justify;
+  margin-left: 5px;
+  padding: 15px;
+  top: 20px
+}
+
+img{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.caja3 >img{
+  position: relative;
+  top: 10px;
+  left: 40px;
+}
